@@ -1,0 +1,4 @@
+install.packages("ggplot2")
+library("ggplot2")
+
+ggplot(data=sleep,aes(x=group,y=extra)) + geom_point()
